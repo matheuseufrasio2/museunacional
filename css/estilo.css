@@ -65,6 +65,7 @@ nav ul li a:hover {
 #conteudo {
     width: 710px;
     float: left;
+    margin-bottom: 20px; 
 }
 
 aside {
@@ -72,6 +73,7 @@ aside {
     float: right;
     background: #ebe7dd;
     padding-bottom: 30px;
+    margin-bottom: 20px; 
 }
 
 section#visita {
@@ -134,6 +136,18 @@ h4 {
     text-transform: uppercase;
     padding-bottom: 3px;
     margin-bottom: 0;
+}
+/*RODAPÉ*/
+
+footer {
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer>p a {
+    padding: 2px 10px;
 }
 
 /*FORMULÁRIOS*/
